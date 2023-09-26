@@ -247,7 +247,7 @@ button {
   color: #396df2;
   display: flex;
   cursor: pointer;
-  transform: 0.5s;
+  transition: transform 0.5s;
   align-items: center;
   text-align: center;
   border: none;
@@ -448,17 +448,17 @@ textarea {
     border-radius: 0 0 0 120px;
     margin-bottom: 0;
   }
-  
+
   .header-container {
     background: #6070ff;
     box-shadow: 3px 3px 10px rgba(0, 0, 255, 0.055);
   }
-  
+
   .header {
     padding: 20px;
     margin: auto;
   }
-  
+
   .logo {
     color: #fff;
     font-weight: 700;
@@ -466,7 +466,7 @@ textarea {
     line-height: 20px;
     cursor: pointer;
   }
-  
+
   .first-letter {
     font-size: 40px;
     border: 2px solid #fff;
@@ -475,27 +475,27 @@ textarea {
     padding-right: 5px;
     color: #fff;
   }
-  
+
   .nav-list,
-    .nav-item {
-      margin-left: auto;
-      display: inline-block;
-      padding-left: 16px;
-    }
-  
+  .nav-item {
+    margin-left: auto;
+    display: inline-block;
+    padding-left: 16px;
+  }
+
   .hambuger {
     display: none;
   }
-  
+
   .nav-list a {
     color: #fff;
   }
-  
+
   .img-BG {
     padding: 105px 0;
   }
-  
-  .name-frame{
+
+  .name-frame {
     display: grid;
     grid-template-columns: 20% 30%;
     height: 250px;
@@ -504,7 +504,7 @@ textarea {
     margin: auto auto;
     padding: 10px 10px;
   }
-  
+
   .lugard {
     width: 100%;
     height: 100%;
@@ -513,7 +513,7 @@ textarea {
     border-radius: 50%;
     margin-top: 25px;
   }
-  
+
   .name {
     font-style: normal;
     display: inline-block;
@@ -527,7 +527,7 @@ textarea {
     margin-top: 40px;
     color: #172b4d;
   }
-  
+
   .my-qualities1 {
     font-style: normal;
     font-size: 20px;
@@ -535,13 +535,13 @@ textarea {
     height: 146px;
     color: #344563;
   }
-  
+
   .my-qualities1-p {
     width: 920px;
     padding-left: 30px;
     padding-bottom: 20px;
   }
-  
+
   .lets-connect1 {
     margin-top: 3rem;
     margin-left: 32px;
@@ -552,42 +552,42 @@ textarea {
     color: #7f8cff;
     padding-top: 35px;
   }
-  
+
   .social-media1 {
     display: flex;
     align-items: center;
     max-width: 50%;
     gap: 15px;
   }
-    
+
   .grid-container {
     display: grid;
     grid-template-columns: 1fr;
     margin: 0 5% 0;
   }
-  
+
   .grid-container:nth-child(2) {
     grid-column-end: 0;
   }
-  
+
   .span-2,
   .span-4,
   .span-6 {
     grid-row-start: 1;
   }
-  
+
   .multiPostStories-con {
     background-color: #fff;
     border: 1px solid #dfe1e6;
     border-radius: 16px;
     display: grid;
-    grid-template-columns: 1fr 1fr;;
+    grid-template-columns: 1fr 1fr;
     height: 350px;
     gap: 2rem;
     padding: 10px;
     align-items: center;
   }
-  
+
   .project-container {
     background-color: #fff;
     border: 1px solid #dfe1e6;
@@ -599,17 +599,17 @@ textarea {
     padding: 10px;
     align-items: center;
   }
-  
+
   img {
     max-width: 100%;
     transform: scale(1);
     transition: 0.5s;
   }
-  
+
   img:hover {
     transform: scale(1.2);
   }
-  
+
   .project-review {
     font-size: 40px;
     font-family: sans-serif, 'Poppins';
@@ -621,7 +621,7 @@ textarea {
     color: #172b4d;
     margin-top: 10px;
   }
-  
+
   .backend-dev {
     display: flex;
     align-items: center;
@@ -629,7 +629,7 @@ textarea {
     width: 85%;
     margin-top: 10px;
   }
-  
+
   .canopy {
     width: 55px;
     height: 16px;
@@ -640,7 +640,7 @@ textarea {
     line-height: 16px;
     color: #344563;
   }
-  
+
   .back-end {
     font-style: normal;
     font-weight: 600;
@@ -648,7 +648,7 @@ textarea {
     line-height: 16px;
     color: #7a869a;
   }
-  
+
   .access-project {
     font-style: normal;
     font-weight: 400;
@@ -659,7 +659,7 @@ textarea {
     line-height: 24px;
     color: #344563;
   }
-  
+
   .programming-lang {
     display: flex;
     align-items: center;
@@ -667,7 +667,7 @@ textarea {
     width: 70%;
     margin-top: 2px;
   }
-  
+
   .lang {
     background-color: #ebebff;
     border-radius: 8px;
@@ -679,7 +679,7 @@ textarea {
     font-size: 12px;
     line-height: 16px;
   }
-  
+
   .project-btn {
     display: flex;
     margin-top: 15px;
@@ -691,11 +691,11 @@ textarea {
     background: #fff;
     width: 128px;
   }
-  
+
   .project-btn:hover {
     background-color: #7f8cff;
   }
-  
+
   button {
     font-style: normal;
     font-weight: 500;
@@ -705,24 +705,24 @@ textarea {
     color: #396df2;
     display: flex;
     cursor: pointer;
-    transform: 0.5s;
+    transition: transform 0.5s;
     align-items: center;
     text-align: center;
     border: none;
     outline: none;
     background-color: #fff;
   }
-  
+
   button:hover {
     text-decoration: none;
     color: #fff;
     background: #7f8cff;
   }
-  
-   #about-me {
+
+  #about-me {
     margin-top: 0;
-  } 
-  
+  }
+
   .aboutMe-container {
     width: 100%;
     background-color: #fff;
@@ -732,14 +732,14 @@ textarea {
     justify-content: center;
     border-top-right-radius: 60px;
   }
-  
+
   .aboutMe-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
     gap: 1.5rem;
   }
-  
+
   .me {
     width: 32px;
     height: 101px;
@@ -752,7 +752,7 @@ textarea {
     color: #172b4d;
     margin-bottom: 10px;
   }
-  
+
   .my-qualities {
     width: 600px;
     font-style: normal;
@@ -762,7 +762,7 @@ textarea {
     color: #344563;
     margin-top: 5px;
   }
-  
+
   .lets-connect {
     font-style: normal;
     font-weight: 500;
@@ -771,7 +771,7 @@ textarea {
     color: #7f8cff;
     margin-top: 5px;
   }
-  
+
   .social-media {
     display: flex;
     align-items: center;
@@ -779,7 +779,7 @@ textarea {
     gap: 10px;
     width: 60%;
   }
-  
+
   .project-btn2 {
     margin-top: 11px;
     display: flex;
@@ -792,13 +792,13 @@ textarea {
     cursor: pointer;
     transition: 0.5s;
   }
-    
+
   .project-btn2:hover {
     background-color: #7f8cff;
     color: #fff;
     border: none;
   }
-  
+
   .language-title {
     margin-top: 10%;
     display: flex;
@@ -806,7 +806,7 @@ textarea {
     justify-content: space-between;
     padding-bottom: 20px;
   }
-  
+
   .language {
     font-style: normal;
     font-weight: 500;
@@ -814,18 +814,18 @@ textarea {
     line-height: 24px;
     color: #000;
   }
-  
+
   .programmingLanguage-con {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin-top: 3%;
   }
-  
+
   .about-me {
     background-color: #fff;
     padding-bottom: 20px;
-  } 
-  
+  }
+
   .languages {
     display: flex;
     flex-direction: column;
@@ -837,7 +837,7 @@ textarea {
     padding: 5px;
     width: 122px;
   }
-  
+
   .framework {
     display: flex;
     align-items: center;
@@ -851,13 +851,13 @@ textarea {
     margin-top: 5%;
     margin-bottom: 5%;
   }
-  
+
   #contact {
     margin-top: 5rem;
   }
-  
+
   .form-container {
-    margin-top: 50px; 
+    margin-top: 50px;
     background-image: url("images/contact\ form\ background\ shapes@2x.png");
     background-repeat: no-repeat;
     background-size: 100% auto;
@@ -865,12 +865,12 @@ textarea {
     border-radius: 50px 0 0 0;
     width: 100%;
   }
-  
+
   .contact-container {
     width: 100%;
     height: 100%;
   }
-  
+
   .p-tag {
     width: 569px;
     height: 102px;
@@ -881,22 +881,22 @@ textarea {
     transform: scale(1);
     transition: 0.5s;
   }
-  
+
   .p-tag:hover {
     transform: scale(1.2);
   }
-  
+
   .contact-header {
     color: white;
     text-align: center;
     font-size: 40px;
   }
-  
+
   .form-control {
     display: flex;
     justify-content: center;
   }
-  
+
   .form-control input,
   textarea {
     width: 100%;
@@ -907,16 +907,16 @@ textarea {
     border: none;
     margin-top: 10px;
   }
-  
+
   textarea {
     margin-bottom: 10px;
   }
-  
+
   .submit-button {
     display: flex;
     justify-content: center;
   }
-  
+
   .submit {
     margin-top: 10px;
     border: none;
@@ -928,11 +928,10 @@ textarea {
     cursor: pointer;
     transition: 0.5s;
   }
-  
+
   .submit:hover {
-    border: 1px solid #fff ;
+    border: 1px solid #fff;
     background-color: #6070ff;
     color: white;
   }
-  
 }
